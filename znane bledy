@@ -1,0 +1,3 @@
+- Po kliknięciu w FieldPoint, czasami MousePressEvent jest wywoływany dwukrotnie, na przykład przy szybkim dwukliku w jeden punkt (wtedy wykonuje się 3 razy przy 2 kliknięciach). Jest to dość widoczne przy edycji, nie wpływa na pozostałe aspekty programu. Nie mam pojęcia i nie mogę znaleźć informacji o tym, co może być źródłem takiego problemu i jak go naprawić.
+
+- Po wczytaniu gry czasami cała aplikacja ignoruje pierwsze kliknięcie. Coś w ogóle jest nie tak z tymi kliknięciami.

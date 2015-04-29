@@ -1,0 +1,33 @@
+﻿PIŁKA - PROJEKT
+
+MODUŁY:
+- AI
+- Interfejs użytkownika
+- Stan gry
+
+FUNKCJE:
+- AI:
+> AI posiada funkcję obliczająca ruch, który powinien wykonać gracz
+komputerowy bądź który powinien pojawić się jako hint. Zostanie
+zaimplementowane prawdopodbnie przy pomocy algorytmu alfa-beta.
+
+- UI:
+> Na górze okna pasek menu umożliwiający
+    a. Rozpoczęcie nowej gry
+    b. Zapisanie stanu gry
+    c. Wczytanie stanu gry
+    d. Edycję stanu gry
+> Głównym elementem okna jest plansza reprezentująca obecny stan gry.
+Oprócz tego są QLabele z imionami graczy i gracz obecnie wykonujący ruch
+jest podświetlony. Poza tym dostępne są przyciski pozwalające użytkownikowi na:
+    a. Zatwierdzenie ruchu
+    b. Cofnięcie ruchu, cofnięcie cofnięcia ruchu (undo, redo)
+    c. Przerwanie obliczeń gracza komputerowego
+
+- Stan gry:
+> Stan gry odpowiada za przechowywanie informacji o przebiegu gry:
+    a. Historia gry w postaci wektora wykonanych ruchów
+    b. Położenie piłki w obecnym momencie
+    c. Nielegalny ruchy w obecnym momencie
+> Moduł ten posiada też funkcje modyfikujące stan gry, odpowiadające przyciskom
+z interfejsu użytownika.
